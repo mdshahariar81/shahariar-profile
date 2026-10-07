@@ -39,6 +39,15 @@ export default function Footer() {
             >
               LinkedIn
             </a>
+            
+             <a
+              href="https://facebook.com/mdshahariar81"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-full border border-white/10 bg-white/[0.02] px-4 py-2 font-mono text-[11px] text-zinc-400 transition-all duration-300 hover:border-violet-400/25 hover:bg-violet-400/[0.06] hover:text-white"
+            >
+              Facebook
+            </a>
 
             <a
               href="https://instagram.com/md.shahariar81"
@@ -50,7 +59,7 @@ export default function Footer() {
             </a>
 
             <a
-              href="https://wa.me/8617822243135"
+              href="https://wa.me/+8801737027588"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-full border border-white/10 bg-white/[0.02] px-4 py-2 font-mono text-[11px] text-zinc-400 transition-all duration-300 hover:border-violet-400/25 hover:bg-violet-400/[0.06] hover:text-white"
