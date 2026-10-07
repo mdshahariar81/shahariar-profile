@@ -1,36 +1,202 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Md Shahariar Hossen — Personal Portfolio
 
-## Getting Started
+<p align="center">
+  <strong>A modern, responsive personal portfolio built with Next.js, React, TypeScript and Tailwind CSS.</strong>
+</p>
 
-First, run the development server:
+<p align="center">
+  <a href="#-overview">Overview</a> •
+  <a href="#-features">Features</a> •
+  <a href="#-tech-stack">Tech Stack</a> •
+  <a href="#-project-structure">Structure</a> •
+  <a href="#-installation">Installation</a> •
+  <a href="#-customization">Customization</a> •
+  <a href="#-deployment">Deployment</a> •
+  <a href="#-troubleshooting">Troubleshooting</a>
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📌 Overview
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This repository contains the source code for the personal portfolio website of **Md Shahariar Hossen**.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The project is designed as a modern, responsive and professional portfolio that can be used to showcase:
 
-## Learn More
+- Personal information
+- Academic background
+- Professional experience
+- Projects
+- Technical skills
+- Certifications
+- Business ventures
+- Social profiles
+- CV / Resume
+- Contact information
 
-To learn more about Next.js, take a look at the following resources:
+The project is intentionally structured so that another developer can clone the repository and customize the content, colors, images, sections, animations and links without rebuilding the project from scratch.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# ✨ Features
 
-## Deploy on Vercel
+## 🎨 Design
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Modern dark interface
+- Minimal and professional visual system
+- Responsive layout
+- Mobile-first design
+- Large typography
+- Glass-style UI elements
+- Subtle borders and gradients
+- Hover interactions
+- Smooth transitions
+- Animated background effects
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📱 Responsive
+
+The website is designed to work across:
+
+- Mobile phones
+- Tablets
+- Laptops
+- Desktop monitors
+- Large screens
+
+The layout uses responsive Tailwind CSS utilities instead of fixed desktop-only layouts.
+
+## 🧭 Navigation
+
+The navbar includes:
+
+- Home
+- About
+- Experience
+- Projects
+- Skills
+- Contact
+
+The active section is detected while scrolling.
+
+The mobile navigation includes a responsive menu.
+
+## 🖼️ Hero Section
+
+The Hero section includes:
+
+- Name
+- Professional introduction
+- Career description
+- Location / availability information
+- Profile image
+- Animated background
+- Primary call-to-action
+- CV download
+- Scroll indicator
+
+## 👤 About Section
+
+The About section presents important personal statistics and professional highlights.
+
+Examples include:
+
+- Artificial Intelligence
+- Business / Entrepreneurship
+- SEO
+- Robotics
+
+## 💼 Experience Section
+
+The Experience section presents professional experience in a timeline-style layout.
+
+## 🎓 Education Section
+
+The Education section presents academic qualifications including:
+
+- University education
+- Diploma
+- Secondary education
+
+## 🚀 Projects Section
+
+The Projects section showcases selected work and ventures.
+
+Examples:
+
+- GrowRiar Impact
+- Movezora
+- Egypt Travel SEO Projects
+- Arduino Robotics Projects
+
+## 🧠 Skills Section
+
+Technical skills are grouped into categories such as:
+
+- Programming
+- Web Development
+- Artificial Intelligence
+- Digital Marketing
+- Robotics & Embedded Systems
+- Design & Office
+
+## 📜 Certifications
+
+The portfolio contains a dedicated certification section.
+
+## 📬 Contact Section
+
+The Contact section provides:
+
+- Email contact
+- LinkedIn
+- Social profiles
+- Direct call-to-action
+
+## 📄 CV Download
+
+A downloadable CV is included inside the `public` directory.
+
+---
+
+# 🛠️ Tech Stack
+
+## Core
+
+| Technology | Purpose |
+|---|---|
+| Next.js | React framework |
+| React | UI development |
+| TypeScript | Type-safe development |
+| Tailwind CSS | Styling |
+| CSS | Custom animations and effects |
+
+## UI / Components
+
+The project uses components and visual effects inspired by:
+
+- React Bits
+- Magic UI
+- Shadcn UI
+- Custom React components
+- Custom CSS animations
+
+## Development Tools
+
+- Git
+- GitHub
+- VS Code
+- npm
+- pnpm
+
+---
+
+# 📋 Requirements
+
+Before running the project, make sure the following are installed.
+
+### Node.js
+
+Recommended:
+
+```text
+Node.js 20+
